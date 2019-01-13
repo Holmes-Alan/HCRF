@@ -1,0 +1,20 @@
+# The train/test net protocol buffer definition
+net: "examples/DecisionTree_CNN/extra/HCRF_s1_Coarse_SR.prototxt"
+test_iter: 1 #8 for step1 and 8 for step2
+test_interval: 10000
+# The base learning rate, momentum and the weight decay of the network.
+type: "Adam"
+base_lr: 0.0001
+momentum: 0.9
+weight_decay: 0.0001
+# The learning rate policy
+lr_policy: "fixed"
+# Display every 100 iterations
+display: 1000
+# The maximum number of iterations
+max_iter: 1000000
+# snapshot intermediate results
+snapshot: 10000
+snapshot_prefix: "examples/DecisionTree_CNN/extra/Model/face_SR"
+# solver mode: CPU or GPU
+solver_mode: GPU
