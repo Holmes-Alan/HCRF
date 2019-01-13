@@ -17,9 +17,10 @@ new project for facial image SR
 2. Random Forest refinement
 ---------------------------
     download the random forests models from 
-    https://drive.google.com/open?id=1eiQDcYh-s1PAlFmr8-PHEQDaqRTKaJiF
+    
+  https://drive.google.com/open?id=1eiQDcYh-s1PAlFmr8-PHEQDaqRTKaJiF 
 
-    https://drive.google.com/open?id=1sLDjUh8kSbTQFgj01KKrGpBB3Qmlr7yX
+  https://drive.google.com/open?id=1sLDjUh8kSbTQFgj01KKrGpBB3Qmlr7yX
 
     to stage1 and stage2 folders and run HCRF_s3_RF_s1.exe and HCRF_s3_RF_s2.exe
 
