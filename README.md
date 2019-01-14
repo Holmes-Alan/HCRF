@@ -39,3 +39,4 @@ new project for facial image SR
 
 2. We also compared different approaches on subjective quality by using OpenFace toolbox to measure similarity of facial features. The lower the better. We tested the results on Helen testing datasets
 
+![image](https://github.com/Holmes-Alan/Face-SR/blob/master/results/figure7.pdf)
