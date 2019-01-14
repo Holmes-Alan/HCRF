@@ -1,5 +1,9 @@
 # Perceptual-SR
-new project for facial image SR
+We propose a combination of CNN and Random Forests for 8x facial image super-resolution. We claim the following points:
+
+• A Siamese Network for Low-Resolution facial image segmentation. 
+
+• Random Forests based model for facial feature reﬁnement.
 
 # Dependencies
     Python 2.XXX<3.0
@@ -26,11 +30,14 @@ new project for facial image SR
 
 3. Testing resulrs on Helen, CelebA and IJCAI dataset can be downloaded from 
 ----------------------------------------------------------------------------
-
+  https://drive.google.com/open?id=1MYXyk0J_P3u6NV-x6m4Q73BG3wzVm2T2
+  
+  https://drive.google.com/open?id=15uCll3pwgOV9wkQYP-ag2RQypESnA6rQ
+  
 # Experimental results
-1. We compared our proposed HCRF with state-of-the-arts face image SR approaches on objective quality by using PSNR and SSIM as follow
+1. We compared our proposed approach with state-of-the-arts face image SR approaches on objective quality by using PSNR and SSIM as follow
 
-| Dataset  | Eval  | Bicubic  | SRCNN  | VDSR  | SRResNet  | UR-DGN  | FSRNet  | HCRF(Proposed)  |
+| Dataset  | Eval  | Bicubic  | SRCNN  | VDSR  | SRResNet  | UR-DGN  | FSRNet  | Proposed  |
 | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
 | HELEN-50  | PSNR  | 23.69 |  23.97 | 24.61  | 25.30  | 24.22  | 26.21  | 27.08  |
 |   | SSIM  | 0.6592  | 0.6779  | 0.6980  | 0.7297  | 0.6909  | 0.7720  | 0.8139  |
@@ -46,3 +53,6 @@ new project for facial image SR
 2. We also compared different approaches on subjective quality by using OpenFace toolbox to measure similarity of facial features. The lower the better. We tested the results on Helen testing datasets
 
 ![Comparison](https://github.com/Holmes-Alan/Face-SR/blob/master/results/Simi_Compare.png)
+
+3. Visual Comparison
+
