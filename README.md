@@ -52,7 +52,8 @@ We propose a combination of CNN and Random Forests for 8x facial image super-res
 
 2. We also compared different approaches on subjective quality by using OpenFace toolbox to measure similarity of facial features. The lower the better. We tested the results on Helen testing datasets
 
-![Comparison](https://github.com/Holmes-Alan/Face-SR/blob/master/results/Simi_Compare.png)
+![Similarity Comparison](https://github.com/Holmes-Alan/Face-SR/blob/master/results/Simi_Compare.png)
 
 3. Visual Comparison
 
+![Visual Comparison](https://github.com/Holmes-Alan/Face-SR/blob/master/results/VQ_Compare.png)
