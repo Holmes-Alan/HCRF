@@ -37,6 +37,12 @@ new project for facial image SR
 | CelebA-1000  | PSNR  | 23.75  | 24.26  | 24.83  | 25.82  | 24.63  | 26.60  | 26.81  |
 |   | SSIM  | 0.6423  | 0.6634  | 0.6878  | 0.7369  | 0.6851  | 0.7628  | 0.7731  |
 
+    We also calculate the Cosine Similarity on HELEN dataset as follow
+   
+| Model  | Bicubic  | SRCNN  | VDSR  | UR-DGN  | MNCE  | FSRNet  | Proposed  |
+| ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ | ------------ |
+| Cos. Sim  | 0.9858  | 0.9889  | 0.9872  | 0.9906  | 0.9912  | 0.9929  | 0.9931  |
+
 2. We also compared different approaches on subjective quality by using OpenFace toolbox to measure similarity of facial features. The lower the better. We tested the results on Helen testing datasets
 
 ![Comparison](https://github.com/Holmes-Alan/Face-SR/blob/master/results/Simi_Compare.png)
