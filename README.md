@@ -1,4 +1,4 @@
-# Perceptual-SR
+# Combine CNN and Random Forest for Face SR
 We propose a combination of CNN and Random Forests for 8x facial image super-resolution. We claim the following points:
 
 • A Siamese Network for Low-Resolution facial image segmentation. 
