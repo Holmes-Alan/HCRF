@@ -1,4 +1,4 @@
-# Combine CNN and Random Forest for Face SR
+# Hierarchical CNN based Random Forests (HCRF) approach for face super-resolution
 We propose a novel approach of CNN and Random Forests for 8x facial image super-resolution. We claim the following points:
 
 • A Siamese Network for Low-Resolution facial image segmentation. 
