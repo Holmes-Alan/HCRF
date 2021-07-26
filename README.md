@@ -1,10 +1,22 @@
 # Combine CNN and Random Forest for Face SR
-We propose a combination of CNN and Random Forests for 8x facial image super-resolution. We claim the following points:
+We propose a novel approach of CNN and Random Forests for 8x facial image super-resolution. We claim the following points:
 
 • A Siamese Network for Low-Resolution facial image segmentation. 
 
 • Random Forests based model for facial feature reﬁnement.
 
+Please cite our work if you use our code or dataset as,
+# BibTex
+
+        @InProceedings{Liu2021refvae,
+            author = {Zhi-Song Liu, Wan-Chi Siu and Yui-Lam Chan},
+            title = {Features Guided Face Super-Resolution via Hybrid Model of Deep Learning and Random Forests},
+            booktitle = {IEEE Transactions on Image Processing},
+            volume = {30},
+            page = {4157-4170},
+            year = {2021}
+        }
+        
 # Dependencies
     Python 2.XXX<3.0
     OpenCV 3.4.0
